@@ -2,7 +2,7 @@ import React from 'react'
 import './Maruti_Suzuki_All_Brand.css'
 
 
-const Maruti_Suzuki_All_Brands = () => {
+const Maruti_Suzuki_Brands = () => {
     const cars = [
         { name: "A STAR", img: "/sec-2.jpg", fuel: ["PETROL", "CNG"] },
         { name: "ALTO", img: "/path-to-image/alto.png", fuel: ["PETROL", "CNG"] },
@@ -451,4 +451,4 @@ const Maruti_Suzuki_All_Brands = () => {
     )
 }
 
-export default Maruti_Suzuki_All_Brands
+export default Maruti_Suzuki_Brands
