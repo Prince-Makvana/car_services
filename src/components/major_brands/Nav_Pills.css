@@ -1,0 +1,62 @@
+.nav-link{
+    border: 1px solid black;
+    margin-right: 15px;
+    margin-top: 15px;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.nav-item:hover .nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    background-color: black;
+    color: white !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.add-to-cart{
+    background-color: #ff0000;
+    color: white;
+}
+
+.add-to-cart:hover{
+    background-color: rgb(0, 0, 0);
+    border-top: 2px solid #ff0000 !important;
+    color: #ff0000;
+}
+
+
+.place-order{
+    background-color: #ff0000;
+    color: white;
+}
+
+.place-order:hover{
+    background-color: black;
+    border-top: 2px solid #ff0000 !important;
+    color: #ff0000;
+}
+
+
+
+.main-div:before {
+    position: absolute;
+    content: "";
+    left: -20px;
+    top: 35px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid #fff;
+    border-bottom: 15px solid transparent;
+}

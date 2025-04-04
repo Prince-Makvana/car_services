@@ -1,0 +1,50 @@
+/* main-section */
+
+.main-section{
+    margin-top: 80px;
+}
+
+
+
+/* section-1 */
+
+
+.btn-book-claim{
+    background-color: #ff0000;
+}
+
+.btn-book-claim:hover{
+    background-color: white;
+    border-top: 2px solid #ff0000;
+    border-left: 1px solid #ff0000;
+    border-right: 1px solid #ff0000;
+}
+
+.s1btn-carousle{
+    background-color: #ffffff !important;
+    height: 12px !important;
+    width: 12px !important;
+}
+
+
+
+/* section-6 */
+
+
+.accordion-button:not(.collapsed){
+    background-color: rgb(23, 23, 23);
+    color: #ffffff;
+}
+
+
+.accordion-button::after{
+    background-image: url(../../public/Insurance_claim/Section-6/plus.png);
+    background-color: #000000;
+    border-radius: 100%;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../../public/Insurance_claim/Section-6/dash.png);
+    background-color: #ff0000;
+    border-radius: 100%;
+}

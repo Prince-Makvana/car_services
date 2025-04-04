@@ -1,0 +1,36 @@
+/* main-section */
+
+.main-section{
+    margin-top: 80px;
+}
+
+
+
+/* section-1 */
+
+
+.btn-get-quote{
+    background-color: #ff0000;
+}
+
+.btn-get-quote:hover{
+    background-color: white;
+    border-top: 2px solid #ff0000;
+    border-left: 1px solid #ff0000;
+    border-right: 1px solid #ff0000;
+}
+
+.s1btn-carousle{
+    background-color: #ffffff !important;
+    height: 12px !important;
+    width: 12px !important;
+}
+
+
+
+/* section-2 */
+
+.teansform:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
