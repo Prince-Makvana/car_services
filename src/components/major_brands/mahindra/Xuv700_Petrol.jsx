@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import "../Nav_Pills.css"
 import Reviews from '../../Reviews'
 import Footer from '../../Footer'
-import Mahindra_All_Brands from './Mahindra_all_brands'
 
 import { useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
@@ -16,6 +15,7 @@ const db = getFirestore(app); // Initialize Firestore
 const auth = getAuth(app);
 
 import useFetch from "../../../hook/useFetch";
+import Mahindra_Brands from './Mahindra_Brands';
 
 
 const Xuv700_Petrol = () => {
@@ -4292,7 +4292,7 @@ const Xuv700_Petrol = () => {
 
     {/* section-4 */}
 
-    <Mahindra_All_Brands/>
+    <Mahindra_Brands/>
 
     {/* section-5 */}
 

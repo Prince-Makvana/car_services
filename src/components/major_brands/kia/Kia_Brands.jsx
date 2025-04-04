@@ -2,7 +2,7 @@ import React from 'react'
 import './Kia_All_Brands.css'
 
 
-const Kia_All_Brands = () => {
+const Kia_Brands = () => {
     const cars = [
         { name: "A STAR", img: "/sec-2.jpg", fuel: ["PETROL", "CNG"] },
         { name: "ALTO", img: "/path-to-image/alto.png", fuel: ["PETROL", "CNG"] },
@@ -93,4 +93,4 @@ const Kia_All_Brands = () => {
     )
 }
 
-export default Kia_All_Brands
+export default Kia_Brands

@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import "../Nav_Pills.css"
 import Reviews from '../../Reviews'
 import Footer from '../../Footer'
-import Honda_All_Brands from './Honda_all_brands'
 
 import { useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
@@ -16,6 +15,7 @@ const db = getFirestore(app); // Initialize Firestore
 const auth = getAuth(app);
 
 import useFetch from "../../../hook/useFetch";
+import Honda_Brands from './Honda_Brands';
 const City_Petrol = () => {
 
     const [tp,ti] = useFetch();
@@ -4290,7 +4290,7 @@ const City_Petrol = () => {
   
       {/* section-4 */}
   
-      <Honda_All_Brands/>
+      <Honda_Brands/>
   
       {/* section-5 */}
   

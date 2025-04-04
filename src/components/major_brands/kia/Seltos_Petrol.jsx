@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import "../Nav_Pills.css"
 import Reviews from '../../Reviews'
 import Footer from '../../Footer'
-import Kia_All_Brands from './Kia_all_brands'
 
 import { useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
@@ -17,6 +16,7 @@ const auth = getAuth(app);
 
 
 import useFetch from "../../../hook/useFetch";
+import Kia_Brands from './Kia_Brands';
 
 const Seltos_Petrol = () => {
 
@@ -4292,7 +4292,7 @@ const Seltos_Petrol = () => {
 
     {/* section-4 */}
 
-    <Kia_All_Brands/>
+    <Kia_Brands/>
 
     {/* section-5 */}
 

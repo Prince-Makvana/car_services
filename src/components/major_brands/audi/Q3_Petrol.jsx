@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import "../Nav_Pills.css"
 import Reviews from '../../Reviews'
 import Footer from '../../Footer'
-import Audi_All_Brands from './Audi_all_brands'
 
 import { useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
@@ -16,6 +15,7 @@ const db = getFirestore(app); // Initialize Firestore
 const auth = getAuth(app);
 
 import useFetch from "../../../hook/useFetch";
+import Audi_Brands from './Audi_Brands';
 
 
 const Q3_Petrol = () => {
@@ -4292,7 +4292,7 @@ const Q3_Petrol = () => {
 
     {/* section-4 */}
 
-    <Audi_All_Brands/>
+    <Audi_Brands/>
 
     {/* section-5 */}
 

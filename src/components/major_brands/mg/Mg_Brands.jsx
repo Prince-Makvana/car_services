@@ -2,7 +2,7 @@ import React from 'react'
 import './Mg_All_Brands.css'
 
 
-const Mg_All_Brands = () => {
+const Mg_Brands = () => {
     const cars = [
         { name: "A STAR", img: "/sec-2.jpg", fuel: ["PETROL", "CNG"] },
         { name: "ALTO", img: "/path-to-image/alto.png", fuel: ["PETROL", "CNG"] },
@@ -107,4 +107,4 @@ const Mg_All_Brands = () => {
     )
 }
 
-export default Mg_All_Brands
+export default Mg_Brands

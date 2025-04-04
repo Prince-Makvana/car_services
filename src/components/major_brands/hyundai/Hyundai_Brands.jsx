@@ -2,7 +2,7 @@ import React from 'react'
 import './Hyundai_All_Brands.css'
 
 
-const Hyundai_All_Brands = () => {
+const Hyundai_Brands = () => {
     const cars = [
         { name: "A STAR", img: "/sec-2.jpg", fuel: ["PETROL", "CNG"] },
         { name: "ALTO", img: "/path-to-image/alto.png", fuel: ["PETROL", "CNG"] },
@@ -357,4 +357,4 @@ const Hyundai_All_Brands = () => {
     )
 }
 
-export default Hyundai_All_Brands
+export default Hyundai_Brands
