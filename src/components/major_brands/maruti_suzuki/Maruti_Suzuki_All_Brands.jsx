@@ -1,5 +1,5 @@
 import React from 'react'
-import './Maruti_Suzuki_All_Brands.css'
+import './Maruti_Suzuki_All_Brand.css'
 
 
 const Maruti_Suzuki_All_Brands = () => {
