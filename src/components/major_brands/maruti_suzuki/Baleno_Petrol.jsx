@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import "../Nav_Pills.css"
 import Reviews from '../../Reviews'
 import Footer from '../../Footer'
-import Maruti_Suzuki_All_Brands from './maruti_suzuki_all_brands'
+import Maruti_Suzuki_All_Brands from './Maruti_suzuki_all_brands'
 
 import { useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
