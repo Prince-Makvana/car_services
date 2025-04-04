@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Car_Services.css"
 import Reviews from './Reviews'
-import Vehiclecare from './vehiclecare'
+import Vehiclecare from './Vehiclecare'
 import Footer from './Footer'
 
 const Car_Services = () => {
