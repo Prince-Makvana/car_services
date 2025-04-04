@@ -2,7 +2,7 @@ import React from 'react'
 import './Tata_All_Brands.css'
 
 
-const Tata_All_Brands = () => {
+const Tata_Brands = () => {
     const cars = [
         { name: "A STAR", img: "/sec-2.jpg", fuel: ["PETROL", "CNG"] },
         { name: "ALTO", img: "/path-to-image/alto.png", fuel: ["PETROL", "CNG"] },
@@ -368,4 +368,4 @@ const Tata_All_Brands = () => {
     )
 }
 
-export default Tata_All_Brands
+export default Tata_Brands

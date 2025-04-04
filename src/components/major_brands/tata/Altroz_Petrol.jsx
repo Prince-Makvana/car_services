@@ -15,7 +15,7 @@ const db = getFirestore(app); // Initialize Firestore
 const auth = getAuth(app);
 
 import useFetch from "../../../hook/useFetch";
-import Tata_All_Brands from './Tata_all_brands';
+import Tata_Brands from './Tata_Brands';
 
 
 const Altroz_Petrol = () => {
@@ -4293,7 +4293,7 @@ const Altroz_Petrol = () => {
 
     {/* section-4 */}
 
-    <Tata_All_Brands/>
+    <Tata_Brands/>
 
     {/* section-5 */}
 

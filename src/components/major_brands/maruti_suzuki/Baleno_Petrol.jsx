@@ -16,7 +16,7 @@ const auth = getAuth(app);
 
 
 import useFetch from "../../../hook/useFetch";
-import Maruti_Suzuki_All_Brands from './Maruti_Suzuki_Brands.jsx';
+import Maruti_Suzuki_Brands from './Maruti_Suzuki_Brands.jsx';
 
 const Baleno_Petrol = () => {
 
@@ -4294,7 +4294,7 @@ const Baleno_Petrol = () => {
 
     {/* section-4 */}
 
-    <Maruti_Suzuki_All_Brands/>
+    <Maruti_Suzuki_Brands/>
 
     {/* section-5 */}
 
