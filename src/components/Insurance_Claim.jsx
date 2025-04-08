@@ -23,14 +23,14 @@ const Insurance_Claim = () => {
                         <select name="" id="" className="form-control rounded-pill mb-3 py-3 ps-4 shadow">
                           <option value="">Select Your Car</option>
                           <option value="Maruti Suzuki">Maruti Suzuki</option>
-                          <option value="">Tata</option>
-                          <option value="">Honda</option>
-                          <option value="">Toyota</option>
-                          <option value="">Hyundai</option>
-                          <option value="">Kia</option>
-                          <option value="">MG</option>
-                          <option value="">Audi</option>
-                          <option value="">Mahindra</option>
+                          <option value="Tata">Tata</option>
+                          <option value="Honda">Honda</option>
+                          <option value="Toyota">Toyota</option>
+                          <option value="Hyundai">Hyundai</option>
+                          <option value="Kia">Kia</option>
+                          <option value="MG">MG</option>
+                          <option value="Audi">Audi</option>
+                          <option value="Mahindra">Mahindra</option>
                         </select>
                         <div className="row">
                             <div className="col">

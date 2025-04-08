@@ -23,6 +23,14 @@ const Car_Services = () => {
                         <select name="" id="" className="form-control rounded-pill mb-3 py-3 ps-4 shadow">
                           <option value="">Select Your Car</option>
                           <option value="Maruti Suzuki">Maruti Suzuki</option>
+                          <option value="Tata">Tata</option>
+                          <option value="Honda">Honda</option>
+                          <option value="Toyota">Toyota</option>
+                          <option value="Hyundai">Hyundai</option>
+                          <option value="Kia">Kia</option>
+                          <option value="MG">MG</option>
+                          <option value="Audi">Audi</option>
+                          <option value="Mahindra">Mahindra</option>
                         </select>
                         <input type="text" placeholder="Enter Your Mobile" className="form-control rounded-pill mb-4 py-3 ps-4 shadow"/>
                         <div className="d-flex justify-content-center">
