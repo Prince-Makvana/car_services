@@ -32,7 +32,18 @@ const Car_Services = () => {
                           <option value="Audi">Audi</option>
                           <option value="Mahindra">Mahindra</option>
                         </select>
-                        <input type="text" placeholder="Enter Your Mobile" className="form-control rounded-pill mb-4 py-3 ps-4 shadow"/>
+                        {/* <input type="text" placeholder="Enter Your Mobile" className="form-control rounded-pill mb-4 py-3 ps-4 shadow"/> */}
+                        <select name="" id="" className="form-control rounded-pill mb-3 py-3 ps-4 shadow">
+                          <option value="">Select Services</option>
+                          <option value="Maruti Suzuki">Periodic Car Services</option>
+                          <option value="Tata">Denting Painting</option>
+                          <option value="Honda">Mechanical Repairs</option>
+                          <option value="Toyota">Car AC Services</option>
+                          <option value="Hyundai">Wheel Car</option>
+                          <option value="Kia">Car Cleaning</option>
+                          <option value="MG">Car Detailing & Spa</option>
+                          <option value="Audi">Custom Repairs</option>
+                        </select>
                         <div className="d-flex justify-content-center">
                           <button type="button" className="btn btn-get-quote rounded-pill px-lg-5 px-4 py-lg-3 py-2 fs-5 fw-bold shadow">Get Quote</button>
                         </div>
