@@ -39,7 +39,7 @@ const Car_Services = () => {
                           <option value="Tata">Denting Painting</option>
                           <option value="Honda">Mechanical Repairs</option>
                           <option value="Toyota">Car AC Services</option>
-                          <option value="Hyundai">Wheel Car</option>
+                          <option value="Hyundai">Wheel Care</option>
                           <option value="Kia">Car Cleaning</option>
                           <option value="MG">Car Detailing & Spa</option>
                           <option value="Audi">Custom Repairs</option>
